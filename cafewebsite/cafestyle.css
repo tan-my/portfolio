@@ -53,7 +53,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background: url("https://tan-my.github.io/portfolio/cafewebsite/coffee.png") no-repeat center center/cover;
+  background: url("coffee.png") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -130,6 +130,7 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+
 
 
 
