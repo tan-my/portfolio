@@ -53,7 +53,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background: url("coffee.png") no-repeat center center/cover; /* replace # with your image */
+  background: url("cafewebsite/coffee.png") no-repeat center center/cover; /* replace # with your image */
   height: 100vh;
   display: flex;
   align-items: center;
@@ -130,4 +130,5 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+
 
