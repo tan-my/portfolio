@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Tony</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+  <h1>Hi, I'm Tan 👋</h1>
+  <p>I build clean and responsive websites for personal use / businesses</p>
+  <nav>
+    <div class="logo">Tan</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+</header>
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      I'm a 2nd-year IT student at UKM, passionate about web and mobile development. 
+      I love helping businesses create modern, user-friendly websites. I'm currently open to freelance opportunities!
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Cafe Website">
+        <h3>Cafe Website (Demo)</h3>
+        <a href="cafewebsite/cafehome.html" target="_blank">View Live</a>
+        <a href="#">View Code</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Landing Page">
+        <h3>Landing Page (Demo)</h3>
+        <a href="#">View Live</a>
+        <a href="#">View Code</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Portfolio">
+        <h3>My Portfolio (This site)</h3>
+        <a href="#">View Live</a>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Services I Offer</h2>
+    <ul>
+      <li>Responsive Business Websites</li>
+      <li>Landing Pages for Products</li>
+      <li>Portfolio Websites for Professionals</li>
+      <li>Website Maintenance</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center;">
+      📧 Email: <a href="mailto:tan938951@email.com">tan938951@email.com</a><br>
+      💼 LinkedIn: <a href="www.linkedin.com/in/tan888">linkedin.com/in/tan888</a><br>
+      💬 WhatsApp: <a href="https://wa.me/0102280704">WhatsApp me here</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Tan | Built with ❤️</p>
+  </footer>
+  <script>
+  // Mobile menu toggle
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+</body>
+</html>
